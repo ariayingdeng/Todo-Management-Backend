@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin("http://localhost:4200")
 public class TodoResource {
 	
 	@Autowired
@@ -44,11 +44,11 @@ public class TodoResource {
 	
 	//Edit/Update a Todo
 	//PUT
-	@PutMapping("/users/{username}/todos/{id})")
+	@PutMapping("/users/{username}/todos/{id}")
 	public ResponseEntity<Todo> updateTodo(@PathVariable String username, 
 			@PathVariable long id, @RequestBody Todo todo) {
-		todoData.save(todo);
-		return new ResponseEntity<Todo>(todo, HttpStatus.OK);
+		Todo todoUpdated = todoData.save(todo);
+		return new ResponseEntity<Todo>(todoUpdated, HttpStatus.OK);
 	}
 	
 	//Create a new Todo
