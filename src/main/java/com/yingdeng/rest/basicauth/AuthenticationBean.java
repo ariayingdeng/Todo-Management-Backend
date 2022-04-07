@@ -1,4 +1,4 @@
-package com.yingdeng.rest.webservices.restfulwebservices.basicauth;
+package com.yingdeng.rest.basicauth;
 
 public class AuthenticationBean {
 	

@@ -1,4 +1,4 @@
-package com.yingdeng.rest.webservices.restfulwebservices;
+package com.yingdeng.rest.basicauth;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
