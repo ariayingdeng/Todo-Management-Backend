@@ -12,6 +12,10 @@ public class JwtTokenRequest implements Serializable {
 //    {
 //    	"token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJpbjI4bWludXRlcyIsImV4cCI6MTY0OTg5NjIxMiwiaWF0IjoxNjQ5MjkxNDEyfQ.wtxEFWrtB6FkpulJ3kpe2D54klPcihZOdVf2i0WLiC4Yy6NPvD77aICR_8VCY-m9CD63JGwkwZPu9eNvLUJAjQ"
 //    	}
+	
+//	{
+//		"token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ5aW5nIiwiZXhwIjoxNjUwMDAxMDMwLCJpYXQiOjE2NDkzOTYyMzB9.KmwAdDpPODyz7KRFwta6jyIcFv7lFGKhaMXU2NnHwvHq07Sff4zfKRIGmWHxA3TnArJ-fq4Umj6G_RlSJBTcxg"
+//		}
 
 	public JwtTokenRequest() {
 		super();
